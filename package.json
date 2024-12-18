@@ -2,6 +2,10 @@
   "name": "react-designsystem-typescript",
   "version": "0.1.0",
   "private": true,
+  "peerDependencies": {
+    "react": ">=16",
+    "react-dom": ">=16"
+  },
   "dependencies": {
     "cra-template-typescript": "1.2.0",
     "react": "^19.0.0",
@@ -14,7 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "tsc": "tsc"
   },
   "eslintConfig": {
     "extends": [
@@ -45,12 +50,16 @@
     "@storybook/react": "^8.4.7",
     "@storybook/react-webpack5": "^8.4.7",
     "@storybook/test": "^8.4.7",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
     "autoprefixer": "^10.4.20",
     "eslint-plugin-storybook": "^0.11.1",
     "postcss": "^8.4.49",
     "prop-types": "^15.8.1",
     "storybook": "^8.4.7",
     "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
     "webpack": "^5.97.1"
   }
 }

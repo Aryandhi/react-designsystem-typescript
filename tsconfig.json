@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es2016",                                  
+    "lib": ["dom", "dom.iterable", "esnext"],            
+    "jsx": "react-jsx",                                 
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "noEmit": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include": ["src"],
+  "exclude": ["src/stories"]
+}
